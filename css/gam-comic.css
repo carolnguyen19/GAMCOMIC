@@ -17,13 +17,19 @@ a {
 .text-primary {
   color: #fed136 !important; }
 
+.link-white {
+  color: white !important; }
+
 h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5 {
   font-weight: 700;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+h6 {
+  font-weight: 500;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 section {
@@ -110,6 +116,14 @@ section {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 400; }
 
+.card-side{
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+	background-color: #fed136;
+  	border-color: #fed136;
+	color: white;
+}
+
 .btn-xl {
   font-size: 18px;
   padding: 20px 40px; }
@@ -123,3 +137,15 @@ section {
     color: white; }
   .btn-primary:active, .btn-primary:focus {
     box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important; }
+
+.red-tooltip + .tooltip > .tooltip-inner {background-color: #f00;}
+.red-tooltip + .tooltip > .tooltip-arrow { border-bottom-color:#f00; }
+
+.card-footer{
+	background-color: white;
+}
+
+.container-white{
+	background-color: white;
+}
+
