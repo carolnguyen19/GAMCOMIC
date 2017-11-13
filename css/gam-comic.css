@@ -20,6 +20,9 @@ a {
 .link-white {
   color: white !important; }
 
+.nav-link {
+  color: white; }
+
 h1,
 h2,
 h3,
@@ -118,7 +121,7 @@ section {
 
 .card-side{
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 700;
 	background-color: #fed136;
   	border-color: #fed136;
 	color: white;
@@ -138,8 +141,8 @@ section {
   .btn-primary:active, .btn-primary:focus {
     box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important; }
 
-.red-tooltip + .tooltip > .tooltip-inner {background-color: #f00;}
-.red-tooltip + .tooltip > .tooltip-arrow { border-bottom-color:#f00; }
+.red-tooltip ~ .tooltip > .tooltip-inner {background-color: #f00;}
+.red-tooltip ~ .tooltip > .tooltip-arrow { border-bottom-color:#f00; }
 
 .card-footer{
 	background-color: white;
@@ -147,5 +150,20 @@ section {
 
 .container-white{
 	background-color: white;
+	
+}
+
+.card-header{
+	background-color: #fec810;
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    padding: 10px;
+}
+
+.nav-tabs {
+    margin-bottom: 0;
 }
 
