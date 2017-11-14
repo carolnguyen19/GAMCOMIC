@@ -14,9 +14,9 @@
 	// ==============================
 
 	var Toggle = function (element, options) {
-		this.$element  = $(element)
-		this.options   = $.extend({}, this.defaults(), options)
-		this.render()
+		this.$element  = $(element);
+		this.options   = $.extend({}, this.defaults(), options);
+		this.render();
 	}
 
 	Toggle.VERSION  = '2.2.0'

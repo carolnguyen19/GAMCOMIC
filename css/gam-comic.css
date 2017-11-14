@@ -18,7 +18,7 @@ a {
   color: #fed136 !important; }
 
 .link-white {
-  color: white !important; }
+  color: black !important; }
 
 .nav-link {
   color: white; }
@@ -124,7 +124,7 @@ section {
   font-weight: 700;
 	background-color: #fed136;
   	border-color: #fed136;
-	color: white;
+	color: black;
 }
 
 .btn-xl {
@@ -166,4 +166,17 @@ section {
 .nav-tabs {
     margin-bottom: 0;
 }
+
+.star-rating {
+  line-height:32px;
+  font-size:1.5em;
+}
+
+.star-rating .fa-star{color: #fec810;}
+
+.pic-detail{
+	max-width: 175px;
+}
+
+.btn-danhdau{}
 

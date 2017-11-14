@@ -1,8 +1,26 @@
-$('.SeeMore2').click(function(){
-    $(this).toggleClass('SeeMore2');
-    if($(this).hasClass('SeeMore2')){
-        $(this).text('See More');         
+var $star_rating = $('.star-rating .fa');
+var SetRatingStar = function() {
+  return $star_rating.each(function() {
+    if (parseInt($star_rating.siblings('input.rating-value').val()) >= parseInt($(this).data('rating'))) {
+      return $(this).removeClass('fa-star-o').addClass('fa-star');
     } else {
-        $(this).text('See Less');
+      return $(this).removeClass('fa-star').addClass('fa-star-o');
     }
+  });
+};
+
+$star_rating.on('click', function() {
+  $star_rating.siblings('input.rating-value').val($(this).data('rating'));
+  return SetRatingStar();
+});
+
+SetRatingStar();
+$(document).ready(function() {
+
+});
+
+$("#danhdau").click(function(){
+    $(this).text(function(i,old){
+        return old=='Đánh dấu' ?  'Đã đánh dấu' : 'Đánh dấu';
+    });
 });

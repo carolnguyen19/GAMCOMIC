@@ -28,9 +28,37 @@
 
 <body>
 <!-- HTML to write -->
-  <button class="SeeMore2">See More</button>
-  
- <input type="checkbox" checked data-toggle="toggle" data-on="Đánh dấu" data-off="Đã đánh dấu" data-offstyle="success">
+<div class="card">
+  <div class="card-body">
+	<div class="row">
+	  <div class="col-3">
+		<div class="text-center">
+
+		<div class="row">
+			<div class="col-lg-12">
+			  <div class="star-rating">
+				<span class="fa fa-star-o" data-rating="1"></span>
+				<span class="fa fa-star-o" data-rating="2"></span>
+				<span class="fa fa-star-o" data-rating="3"></span>
+				<span class="fa fa-star-o" data-rating="4"></span>
+				<span class="fa fa-star-o" data-rating="5"></span>
+				<input type="hidden" name="whatever1" class="rating-value" value="4.0">
+			  </div>
+			</div>
+		</div>
+
+		<div><img class="mr-3 pic-detail mx-auto d-block" src="images/khan-do.jpg"></div>
+		<button class="btn btn-primary my-2" data-toggle="collapse" data-target="#intro">Đánh dấu</button>
+	  </div>
+	  </div>
+	  <div class="col-9">
+		<h5 class="mt-0">Media heading</h5>
+		Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+	  </div>
+	</div>
+  </div>
+</div>
+ 
   
   
 <!-- Bootstrap core JavaScript -->
@@ -38,5 +66,6 @@
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/bootstrap-toggle.min.js"></script>
+    <script src="js/gam-comic.js"></script>
 </body>
 </html>
