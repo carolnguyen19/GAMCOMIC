@@ -113,7 +113,7 @@
 			<div class="row">
 			  <div class="col-sm-3">
 				<div class="text-center">
-				<div><img class="mr-3 pic-detail" src="images/khan-do.jpg"></div>
+				<div><img class="mr-3 pic-detail mx-auto d-block" src="images/khan-do.jpg"></div>
 				<button class="btn btn-primary btn-danhdau btn-block my-2" id="danhdau" data-toggle="collapse" data-target="#intro">Đánh dấu</button>
 				<button type="button" class="btn btn-outline-warning btn-block">Bắt đầu đọc</button>
 			  </div>
@@ -218,6 +218,37 @@
 				</div>
 			  </div>
 			</div>
+			
+			<h4 class="my-4">Danh sách chương</h4>
+			<table class="table table-hover my-2">
+			  <tbody>
+				<tr>
+				  <th scope="row">Chap 5</th>
+				  <td>1 giờ trước</td>
+				</tr>
+				<tr>
+				  <th scope="row">Chap 4</th>
+				  <td>19 giờ trước</td>
+				</tr>
+				<tr>
+				  <th scope="row">Chap 3</th>
+				  <td>2 ngày trước</td>
+				</tr>
+				<tr>
+				  <th scope="row">Chap 2</th>
+				  <td>2 ngày trước</td>
+				</tr>
+				<tr>
+				  <th scope="row">Chap 1</th>
+				  <td>3 ngày trước</td>
+				</tr>
+				<tr>
+				  <th scope="row">Chap 1</th>
+				  <td>5 ngày trước</td>
+				</tr>
+			  </tbody>
+			</table>
+			
 		  </div>
 		</div>
 
@@ -225,46 +256,46 @@
 
           <!-- Comments Form -->
           <div class="card my-4">
-            <h5 class="card-header card-side">Leave a Comment:</h5>
+            <h5 class="card-header card-side">Bình luận:</h5>
             <div class="card-body">
               <form>
                 <div class="form-group">
                   <textarea class="form-control" rows="3"></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary">Gửi bình luận</button>
               </form>
             </div>
           </div>
 
           <!-- Single Comment -->
           <div class="media mb-4">
-            <img class="d-flex mr-3 rounded-circle" src="http://placehold.it/50x50" alt="">
+            <img class="d-flex mr-3 rounded-circle" src="images/optimus-prime-50-50.jpg" alt="">
             <div class="media-body">
-              <h5 class="mt-0">Commenter Name</h5>
-              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+              <h5 class="mt-0">Optimus Prime</h5>
+              Anh nghĩ nhân tính là gì? Đó là thứ chúng ta vẫn làm. Chúng ta phạm sai lầm. Đôi khi, chính những sai lầm đó dẫn đến những điều kì diệu… 
             </div>
           </div>
 
           <!-- Comment with nested comments -->
           <div class="media mb-4">
-            <img class="d-flex mr-3 rounded-circle" src="http://placehold.it/50x50" alt="">
+            <img class="d-flex mr-3 rounded-circle" src="images/megatron-50-50.jpg" alt="">
             <div class="media-body">
-              <h5 class="mt-0">Commenter Name</h5>
-              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+              <h5 class="mt-0">Megatron</h5>
+              Cậu sẽ là ai nếu không có ta!
 
               <div class="media mt-4">
-                <img class="d-flex mr-3 rounded-circle" src="http://placehold.it/50x50" alt="">
+                <img class="d-flex mr-3 rounded-circle" src="images/buzz-50-50.jpg" alt="">
                 <div class="media-body">
-                  <h5 class="mt-0">Commenter Name</h5>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                  <h5 class="mt-0">Buzz Lightyear</h5>
+                  Người ta nói rất khó để chạm đến không gian vô tận. Nhưng ít nhất tôi sẽ cố. Và tôi biết tôi không thể vượt qua được! Nhưng tôi muốn thử sức.
                 </div>
               </div>
 
               <div class="media mt-4">
-                <img class="d-flex mr-3 rounded-circle" src="http://placehold.it/50x50" alt="">
+                <img class="d-flex mr-3 rounded-circle" src="images/kevin-50-50.jpg" alt="">
                 <div class="media-body">
-                  <h5 class="mt-0">Commenter Name</h5>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                  <h5 class="mt-0">Kevin Flynn</h5>
+                  Tôi vẫn mơ về một thế giới mà tôi nghĩ mình sẽ chẳng bao giờ thấy. Và rồi một ngày… tôi ở trong nó!
                 </div>
               </div>
 
@@ -278,59 +309,111 @@
 
           <!-- Search Widget -->
           <div class="card mb-4">
-            <h5 class="card-header card-side">Search</h5>
+            <h5 class="card-header card-side">TRUYỆN TƯƠNG TỰ</h5>
             <div class="card-body">
-              <div class="input-group">
-                <input type="text" class="form-control" placeholder="Search for...">
-                <span class="input-group-btn">
-                  <button class="btn btn-secondary" type="button">Go!</button>
-                </span>
-              </div>
+              <div class="list-unstyled">
+					  <li class="media mb-4">
+						<a href="#"><img class="align-self-center mr-3" src="images/side-tab-01.jpg" alt=""></a>
+						<div class="media-body">
+						  <h5 class="card-title"><a href="#">Infinity War</a></h5>
+						  <div class="container">
+						  <div class="row">
+							<div class="col"><a href="#" class="text-black"> Chap 56</a></div>
+							<div class="col"><i class="fa fa-heart-o" aria-hidden="true"></i>1959</div>
+							<div class="w-100"></div>
+							<div class="col"><a href="#" class="text-black"> Chap 56</a></div>
+							<div class="col"><i class="fa fa-eye" aria-hidden="true"></i>3569</div>
+						  </div>
+						  </div>
+						</div>
+					  </li>
+					  <hr>
+					  <li class="media my-4">
+						<img class="align-self-center mr-3" src="images/side-tab-02.jpg" alt="">
+						<div class="media-body">
+						  <h5 class="card-title"><a href="#">Doraemon</a></h5>
+						  <div class="container">
+						  <div class="row">
+							<div class="col"><a href="#" class="text-black"> Chap 56</a></div>
+							<div class="col"><i class="fa fa-heart-o" aria-hidden="true"></i>1959</div>
+							<div class="w-100"></div>
+							<div class="col"><a href="#" class="text-black"> Chap 56</a></div>
+							<div class="col"><i class="fa fa-eye" aria-hidden="true"></i>3569</div>
+						  </div>
+						  </div>
+						</div>
+					  </li>
+					  <hr>
+					  <li class="media my-4">
+						<img class="align-self-center mr-3" src="images/side-tab-03.jpg" alt="">
+						<div class="media-body">
+						  <h5 class="card-title"><a href="#">Death is like a wind</a></h5>
+						  <div class="container">
+						  <div class="row">
+							<div class="col"><a href="#" class="text-black"> Chap 56</a></div>
+							<div class="col"><i class="fa fa-heart-o" aria-hidden="true"></i>1959</div>
+							<div class="w-100"></div>
+							<div class="col"><a href="#" class="text-black"> Chap 56</a></div>
+							<div class="col"><i class="fa fa-eye" aria-hidden="true"></i>3569</div>
+						  </div>
+						  </div>
+						</div>
+					  </li>
+					  <hr>
+					  <li class="media my-4">
+						<img class="align-self-center mr-3" src="images/side-tab-04.jpg" alt="">
+						<div class="media-body">
+						  <h5 class="card-title"><a href="#">Điệp Viên Siêu Đẳng</a></h5>
+						  <div class="container">
+						  <div class="row">
+							<div class="col"><a href="#" class="text-black"> Chap 56</a></div>
+							<div class="col"><i class="fa fa-heart-o" aria-hidden="true"></i>1959</div>
+							<div class="w-100"></div>
+							<div class="col"><a href="#" class="text-black"> Chap 56</a></div>
+							<div class="col"><i class="fa fa-eye" aria-hidden="true"></i>3569</div>
+						  </div>
+						  </div>
+						</div>
+					  </li>
+					  <hr>
+					  <li class="media my-4">
+						<img class="align-self-center mr-3" src="images/side-tab-05.jpg" alt="">
+						<div class="media-body">
+						  <h5 class="card-title"><a href="#">Ayakashiko</a></h5>
+						  <div class="container">
+						  <div class="row">
+							<div class="col"><a href="#" class="text-black"> Chap 56</a></div>
+							<div class="col"><i class="fa fa-heart-o" aria-hidden="true"></i>1959</div>
+							<div class="w-100"></div>
+							<div class="col"><a href="#" class="text-black"> Chap 56</a></div>
+							<div class="col"><i class="fa fa-eye" aria-hidden="true"></i>3569</div>
+						  </div>
+						  </div>
+						</div>
+					  </li>
+					  
+					</div>
             </div>
           </div>
-
-          <!-- Categories Widget -->
-          <div class="card my-4">
-            <h5 class="card-header card-side">Categories</h5>
-            <div class="card-body">
-              <div class="row">
-                <div class="col-lg-6">
-                  <ul class="list-unstyled mb-0">
-                    <li>
-                      <a href="#">Web Design</a>
-                    </li>
-                    <li>
-                      <a href="#">HTML</a>
-                    </li>
-                    <li>
-                      <a href="#">Freebies</a>
-                    </li>
-                  </ul>
-                </div>
-                <div class="col-lg-6">
-                  <ul class="list-unstyled mb-0">
-                    <li>
-                      <a href="#">JavaScript</a>
-                    </li>
-                    <li>
-                      <a href="#">CSS</a>
-                    </li>
-                    <li>
-                      <a href="#">Tutorials</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
+          
 
           <!-- Side Widget -->
-          <div class="card my-4">
-            <h5 class="card-header card-side">Side Widget</h5>
-            <div class="card-body">
-              You can put anything you want inside of these side widgets. They are easy to use, and feature the new Bootstrap 4 card containers!
-            </div>
+          <div class="card my-4 ">
+            <a href="#"><h5 class="card-header card-side link-white"><i class="fa fa-tags" aria-hidden="true"></i> TOP TAGS</h5></a>
+            <div class="card-body h4">
+            <span class="badge badge-pill badge-warning">one piece</span>
+            <span class="badge badge-pill badge-warning">romance drama</span>
+            <span class="badge badge-pill badge-warning">khi nào hết mưa</span>
+            <span class="badge badge-pill badge-warning">bao công xử án</span>
+            <span class="badge badge-pill badge-warning">Momoiro Heaven</span>
+            <span class="badge badge-pill badge-warning">Donald Trump</span>
+            <span class="badge badge-pill badge-warning">Thủ tướng Canada đẹp trai</span>
+            <span class="badge badge-pill badge-warning">Giao tiếp người máy</span>
+            <span class="badge badge-pill badge-warning">HCI</span>
+            <span class="badge badge-pill badge-warning">nhóm 03</span>
           </div>
+          </div>
+          
 
         </div>
 
