@@ -24,3 +24,9 @@ $("#danhdau").click(function(){
         return old=='Đánh dấu' ?  'Đã đánh dấu' : 'Đánh dấu';
     });
 });
+
+$(".more").toggle(function(){
+    $(this).text("less..").siblings(".complete").show();    
+}, function(){
+    $(this).text("more..").siblings(".complete").hide();    
+});

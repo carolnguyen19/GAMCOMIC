@@ -180,3 +180,24 @@ section {
 
 .btn-danhdau{}
 
+.complete{
+    display:none;
+}
+
+.more{
+    background:lightblue;
+    color:navy;
+    font-size:13px;
+    padding:3px;
+    cursor:pointer;
+}
+
+.scrollspy-binhluan {
+  height:500px;
+  overflow-y: scroll;
+}
+
+.text-black {
+	color:black;
+}
+
